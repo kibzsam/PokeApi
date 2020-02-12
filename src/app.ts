@@ -2,7 +2,7 @@ import express from "express";
 import { Application } from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import { Controller } from "../controller/main.controller";
+import { Controller } from "./controller/main.controller";
 import mongoose from "mongoose";
 
 class App {
